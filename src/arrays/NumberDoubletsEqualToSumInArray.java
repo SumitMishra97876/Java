@@ -2,14 +2,13 @@ package arrays;
 
 import java.util.HashSet;
 
-public class NumberTripletsEqualToSumInArray {
+public class NumberDoubletsEqualToSumInArray {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		
+
 		int arr[]= {1,2,3,6,7,9};
-		int number=9;
+		int number=17;
 		disp(arr,number);
 	}
 	
@@ -25,26 +24,25 @@ public class NumberTripletsEqualToSumInArray {
 		for(int i=0;i<arr.length;i++)
 		{
 			
-			int curr_num=number-arr[i];
+			int sum=number-arr[i];
 			
-			for(int j=i+1;j<arr.length;j++)
-			{
-				int curr_sum=curr_num-arr[j];
-				if(s.contains(curr_sum))
+
+				if(s.contains(sum))
 				{
 					
-					System.out.println("triplets found: " +arr[i] +" " +arr[j]+" "+curr_sum);
+					System.out.println("doublets found: " +arr[i] +" " +sum);
 					flag=true;
 				}
 				
-				s.add(arr[j]);
+				s.add(arr[i]);
 			}
 			
-		}
+		
 		if(flag==false)
 		{
-			System.out.println("Triplets not found");
+			System.out.println("Doublets not found");
 		}
 	}
+
 
 }

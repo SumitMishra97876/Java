@@ -5,7 +5,7 @@ public class Reverse_Num {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int num=80000;
+		int num=-123;
 		int temp;
 		int rev=0;
 		
@@ -25,6 +25,8 @@ public class Reverse_Num {
 		else {
 			System.out.println("Not Palindrome");
 		}
+		
+		
 		
 		
 

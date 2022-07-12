@@ -4,7 +4,7 @@ public class CountDuplicateCharacterFromStringWithoutUsingLoop {
 
 	public static void main(String[] args) {
 
-      String str="Sumit";
+      String str="appartment";
       duplicate(str);
 //      int countA=str.length()-str.replaceAll("a", "").length();
 //		int countP=str.length()-str.replaceAll("p", "").length();
@@ -16,15 +16,19 @@ public class CountDuplicateCharacterFromStringWithoutUsingLoop {
 //		int countN=str.length()-str.replaceAll("n", "").length();
 //		
 //		
-//		System.out.println(" count of a: " +countA);
-//		System.out.println(" count of p: " +countP);
-//		System.out.println(" count of r: " +countR);
-//		System.out.println(" count of t: " +countT);
-//		System.out.println(" count of m: " +countM);
-//		System.out.println(" count of e: " +countE);
-//		System.out.println(" count of n: " +countN);
+//		System.out.print(" a" +countA);
+//		System.out.print(" p" +countP);
+//		System.out.print(" r" +countR);
+//		System.out.print(" t" +countT);
+//		System.out.print(" m" +countM);
+//		System.out.print(" e" +countE);
+//		System.out.print(" n" +countN);
 
 	}
+	
+	
+	
+	
 	
 	
 	public static void duplicate(String str)
@@ -35,13 +39,17 @@ public class CountDuplicateCharacterFromStringWithoutUsingLoop {
 			String chars=String.valueOf(str.charAt(i));
 			int count=str.length()-str.replaceAll(chars, "").length();
 			
-			System.out.println("count of each Char " + str.charAt(i) +" is " +count);
+			System.out.print( str.charAt(i)+""+count);
 			
 		}
+	
+	
+	
 		
 		
 		
 		
 	}
-
 }
+
+

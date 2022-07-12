@@ -16,15 +16,20 @@ public class RemoveDulicateCharsFromString {
 		
 		Set<Character> s=new HashSet<Character>();
 		
-		for(int i=0;i<carr.length;i++)
+		for(char ch:carr)
 		{
-			if(!s.add(carr[i]))
+			if(!s.add(ch))
 			{
-				System.out.print(carr[i]);
+				//System.out.print(carr[i]);
+				
+				s.add(ch);
 			}
 		}
 		
-		
+		for(Character c: s)
+		{
+			System.out.print(c);
+		}
 	}
 
 }
