@@ -4,7 +4,7 @@ public class Rev_Digits_In_String {
 
 	public static void main(String[] args) {
 		
-		String str="Apple123";
+		String str="Apple123Banana654";
 		
 		test(str);
 		
