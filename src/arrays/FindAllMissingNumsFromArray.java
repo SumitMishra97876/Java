@@ -1,11 +1,13 @@
 package arrays;
 
+import java.util.Arrays;
+
 public class FindAllMissingNumsFromArray {
 
 	public static void main(String[] args) {
 		
 		
-		int arr[]= {0,5,8,6,15};
+		int arr[]= {0,1,3,5,8};
 		
 		int N=arr.length;
 		
@@ -16,6 +18,7 @@ public class FindAllMissingNumsFromArray {
 	
 	public static void dispMissing(int arr[],int N)
 	{
+		//Arrays.sort(arr);
 		
 		
 		int[] b=new int[arr[N-1]+1];

@@ -4,7 +4,7 @@ public class Bubble_Sort {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 1, 2, 13, 12, 14 };
+		int arr[] = { 1, 2, 13, 12, 14,9,67,45 };
 
 		for (int i = 0; i < arr.length-1; i++) {
 			boolean isSorted = true;

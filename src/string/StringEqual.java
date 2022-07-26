@@ -6,9 +6,10 @@ public class StringEqual {
 		
 		String s="sumit";
 		String r=new String("sumit");
+		String t=new String("sumit");
 		
 		
-		System.out.println(s==r);
+		System.out.println(r==t);
 
 	}
 

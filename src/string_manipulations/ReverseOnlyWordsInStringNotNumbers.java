@@ -1,12 +1,12 @@
 package string_manipulations;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ReverseOnlyWordsInStringNotNumbers {
 
 	public static void main(String[] args) {
 
-		String str = "test987Java657python989yummy90$ypop";
+		String str = "test986java656hello8po";
 
 		disp(str);
 
@@ -26,9 +26,9 @@ public class ReverseOnlyWordsInStringNotNumbers {
 
 		}
 
-		for (String str1 : strArr) {
-			System.out.print(str1);
-		}
+		String s2 = String.join("", strArr);
+
+		System.out.print(s2);
 
 	}
 

@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ShiftZeroesLeft1 {
 
 	public static void main(String[] args) {
-		int[] arr= {1,0,3,4,7,0,8,0,6,0,0,0,5};
+		int[] arr= {3,0,2,7,9,0,1,0,1,0,0,0,1};
 		
 		
 		System.out.println(Arrays.toString(shiftLeft(arr)));
@@ -39,5 +39,9 @@ public class ShiftZeroesLeft1 {
 		}
 		return arr1;
 	}
-
+ 
+	public static void disp(int[] arr)
+	{
+		
+	}
 }

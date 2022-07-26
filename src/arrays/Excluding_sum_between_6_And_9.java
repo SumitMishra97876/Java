@@ -3,7 +3,7 @@ package arrays;
 public class Excluding_sum_between_6_And_9 {
 
 	public static void main(String[] args) {
-		int[] test= {1,2,2,4,6,8,7,5,4,9,0,8,7};
+		int[] test= {1,2,2,4,8,8,7,5,4,8,0,8,7,6,3,5,7,9};
 		
 		
 		int sum=0;
