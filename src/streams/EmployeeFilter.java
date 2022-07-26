@@ -12,13 +12,13 @@ public class EmployeeFilter {
 
 	public static void main(String[] args) {
 
-		Employee e1 = new Employee("Sumit", "Varanasi", "cricket", 10000, 100, 101, true);
-		Employee e2 = new Employee("Rahul", "Aurangabad", "Daru", 20000, 102, 100, true);
-		Employee e3 = new Employee("Sunny", "Durgapur", "criket", 3000, 101, 102, false);
+		Employee e1 = new Employee("Sumit", "Varanasi", "Trekking", 10000, 100, 101, true);
+		Employee e2 = new Employee("Rahul", "Aurangabad", "Hiking", 20000, 102, 100, true);
+		Employee e3 = new Employee("Sunny", "Durgapur", "Movies", 3000, 101, 102, false);
 		Employee e4 = new Employee("Sunil", "Durgapur", "Study", 56000, 103, 100, true);
-		Employee e5 = new Employee("Saswata", "Durgapur", "Daru", 9000, 104, 101, false);
-		Employee e6 = new Employee("jack", "Durgapur", "Daru", 7000, 105, 102, true);
-		Employee e7 = new Employee("Drew", "London", "Daru", 80000, 106, 103, false);
+		Employee e5 = new Employee("Saswata", "Durgapur", "Biking", 9000, 104, 101, false);
+		Employee e6 = new Employee("jack", "Durgapur", "Travelling", 7000, 105, 102, true);
+		Employee e7 = new Employee("Drew", "London", "Cycling", 80000, 106, 103, false);
 
 		ArrayList<Employee> alist = new ArrayList<Employee>();
 
