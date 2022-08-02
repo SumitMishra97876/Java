@@ -15,9 +15,9 @@ public class Duplicates_From_Arrays
        // Integer[] array = null;
         int length=nums.length;
         for (int i = 0; i < length; ++i) {
-            Integer num = nums[i];
-            if (!hs.add(num)) {
-                System.out.println("Duplicate elements are " + num);
+            //Integer num = nums[i];
+            if (!hs.add(nums[i])) {
+                System.out.println("Duplicate elements are " + nums[i]);
             }
         }
     }

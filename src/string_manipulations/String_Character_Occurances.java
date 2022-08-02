@@ -8,7 +8,9 @@ import java.util.Set;
 public class String_Character_Occurances {
 
 	public static void main(String[] args) {
-		StringCharOccurences("sumittmishrrra",'r');
+		StringCharOccurences("sumittmishrrra",'m');
+
+
 
 	}
 	

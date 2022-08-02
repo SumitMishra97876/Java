@@ -9,7 +9,10 @@ public class ArmstrongNum {
     
 	
 	public static void isaArmstrong(int n)
+	
 	{
+		
+		int x=order(n);
 		int temp;
 		int a;
 		int sum=0;
@@ -19,7 +22,9 @@ public class ArmstrongNum {
 		{
 			a=n%10;
 			n=n/10;
-			sum=sum+(a*a*a);
+			//sum=sum+(a*a*a);
+			sum=sum+(a^x);
+			
 		}
 		if(temp==sum)
 		{
@@ -29,5 +34,19 @@ public class ArmstrongNum {
 		{
 			System.out.println("Is not armstrong");
 		}
+	}
+	
+	
+	public static int order(int number)
+	{
+		
+		int n=0;
+		while(number!=0)
+		{
+			n++;
+			number=number/10;
+		}
+		return n;
+		
 	}
 }

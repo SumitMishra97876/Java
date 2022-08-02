@@ -8,7 +8,7 @@ public class RemovingDuplicateCharacters {
 
 	public static void main(String[] args) {
 		
-		removeDuplicateChars("sumittmm");
+		removeDuplicateChars("sumittmmss");
 	}
 	
 	public static void removeDuplicateChars(String str)
@@ -17,17 +17,24 @@ public class RemovingDuplicateCharacters {
 		
 		int length=chArr.length;
 		Set<Character> s=new LinkedHashSet<Character>();
+		Set<Character> s1=new LinkedHashSet<Character>();
+		
+	
 		
 		for(Character c: chArr)
 		{
-			s.add(c);
+			if(!s.add(c))
+			{
+				s1.add(c);
+			}
 		}
 		
-		s.toString();
-		for(Character c:s)
-		{
-			System.out.print(c);
-		}
+		System.out.println("Duplicates are " +s1);
+//		s.toString();
+//		for(Character c:s1)
+//		{
+//			System.out.print("Duplicates are " +c +" ");
+//		}
 	}
 
 }

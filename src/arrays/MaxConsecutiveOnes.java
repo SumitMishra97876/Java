@@ -4,7 +4,7 @@ public class MaxConsecutiveOnes {
 
 	public static void main(String[] args) {
 		
-		int arr[]= {0,1,0,1,1,0,1,1,1,1,1,   0};
+		int arr[]= {0,1,0,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1};
 		int count=0;
 		int max=0;
 		System.out.println(arr.length);

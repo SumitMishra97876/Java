@@ -6,7 +6,7 @@ public class DuplicatesUsingSorting {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 1, 2, 4, 5, 6, 5 };
+		int arr[] = { 1, 2, 4, 5, 6, 5,8,7,9,8 };
 		sortDuplicates(arr);
 
 	}

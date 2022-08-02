@@ -79,6 +79,11 @@ public class EmployeeFilter {
 		
 		List<Employee> hh=alist.stream().filter(e->e.getSalary()>2000 && e.getSalary()<10000).collect(Collectors.toList());
 		System.out.println(hh);
+		
+		
+		Map<Integer, Double> ii=alist.stream().collect(Collectors.groupingBy(Employee::getSalary,Collectors.averagingInt(Employee::getSalary)));
+		
+		
 	}
 
 }

@@ -15,7 +15,8 @@ public class EvenDigitsNumber {
 		{
 			int num=arr[i];
 			
-			String nums=Integer.toString(num);
+			//String nums=Integer.toString(num);
+			String nums=String.valueOf(num);
 			
 			if(nums.length()%2==0)
 			{
