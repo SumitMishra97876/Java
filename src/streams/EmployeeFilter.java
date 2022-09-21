@@ -16,7 +16,7 @@ public class EmployeeFilter {
 		Employee e2 = new Employee("Rahul", "Aurangabad", "Hiking", 20000, 102, 100, true);
 		Employee e3 = new Employee("Sunny", "Durgapur", "Movies", 3000, 101, 102, false);
 		Employee e4 = new Employee("Sunil", "Durgapur", "Study", 56000, 103, 100, true);
-		Employee e5 = new Employee("Saswata", "Durgapur", "Biking", 9000, 104, 101, false);
+		Employee e5 = new Employee("Saswata", "Durgapur", "Biking", 56000, 104, 101, false);
 		Employee e6 = new Employee("jack", "Durgapur", "Travelling", 7000, 105, 102, true);
 		Employee e7 = new Employee("Drew", "London", "Cycling", 80000, 106, 103, false);
 
@@ -81,9 +81,9 @@ public class EmployeeFilter {
 		System.out.println(hh);
 		
 		
-		Map<Integer, Double> ii=alist.stream().collect(Collectors.groupingBy(Employee::getSalary,Collectors.averagingInt(Employee::getSalary)));
+		Map<Integer, Double> ii=alist.stream().collect(Collectors.groupingBy(Employee::getDeptid,Collectors.averagingInt(Employee::getSalary)));
 		
-		
+		System.out.println(ii);
 	}
 
 }

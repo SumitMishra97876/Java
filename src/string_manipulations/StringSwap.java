@@ -18,7 +18,7 @@ public class StringSwap {
 		System.out.println("String b: " +b);
 		System.out.println("After Swapping");
 		
-		a=String.valueOf(a)+b;
+		a=a+b;
 		b=a.substring(0,a.length()-b.length());
 		a=a.substring(b.length());
 		

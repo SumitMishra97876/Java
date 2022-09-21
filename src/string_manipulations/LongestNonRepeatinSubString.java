@@ -36,12 +36,7 @@ public class LongestNonRepeatinSubString {
 		
 		System.out.println("longest substring " +max_length);
 		
-		Set<Map.Entry<Character,Integer>>s=hs.entrySet();
 		
-		for(Map.Entry<Character, Integer>s1:s)
-		{
-			System.out.print(s1.getKey());
-		}
 		
 	}
 	

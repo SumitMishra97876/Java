@@ -4,9 +4,9 @@ public class ExcludingSumBetweenTwoGivenNumsInArray {
 
 	public static void main(String[] args) {
 
-       int arr[]= {6,7,0,9,8,3,4,2,6,5,7,9,3};
+       int arr[]= {4,7,8,5,3,2,9,6};
        
-       disp(arr,9,7);
+       disp(arr,5,6);
 
 	}
 	

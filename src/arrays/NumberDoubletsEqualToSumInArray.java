@@ -7,8 +7,8 @@ public class NumberDoubletsEqualToSumInArray {
 	public static void main(String[] args) {
 
 
-		int arr[]= {1,2,3,6,7,9};
-		int number=17;
+		int arr[]= {1,2,3,6,7,9,5};
+		int number=12;
 		disp(arr,number);
 	}
 	
@@ -25,6 +25,8 @@ public class NumberDoubletsEqualToSumInArray {
 		{
 			
 			int sum=number-arr[i];
+			
+			
 			
 
 				if(s.contains(sum))

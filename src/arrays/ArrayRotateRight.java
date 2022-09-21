@@ -3,10 +3,11 @@ package arrays;
 public class ArrayRotateRight {
 
 	public static void main(String[] args) {
-int arr[]= {12, -9, 45, 23, -99, 67, 98, 90, 11, 45};
+//int arr[]= {12, -9, 45, 23, -99, 67, 98, 90, 11, 45};
+		int arr[]= {1,3,5,6,7};
 		
 		int n=arr.length;
-		int r=3;
+		int r=2;
 		System.out.println("Array before rotation: ");   
 		for(int i = 0 ; i < n ; i++)  
 		{  

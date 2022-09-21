@@ -3,7 +3,7 @@ package numbers;
 public class ReverseNumber {
 
 	public static void main(String[] args) {
-		int x=2147483647;
+		int x=-45678;
 		System.out.println(reverse(x));
 
 	}

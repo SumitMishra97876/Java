@@ -37,7 +37,7 @@ public class AddingTwoArraysAndRemovingDuplicates {
 		ArrayList<String> a=new ArrayList<String>(namesSet);
 		String[] distincNames=new String[a.size()];
 		
-		for(int i=0;i<namesSet.size();i++)
+		for(int i=0;i<a.size();i++)
 		{
 			distincNames[i]=a.get(i);  
 		}

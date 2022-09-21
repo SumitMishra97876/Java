@@ -6,7 +6,7 @@ public class ReverseOnlyWordsInStringNotNumbers {
 
 	public static void main(String[] args) {
 
-		String str = "test986java656hello8po";
+		String str = "test986java657hello98po";
 
 		disp(str);
 

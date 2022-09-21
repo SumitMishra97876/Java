@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.Arrays;
+
 public class ArraysDescendSort {
 
 	public static void main(String[] args) {
@@ -22,6 +24,24 @@ public class ArraysDescendSort {
 					arr[i]=arr[j];
 					arr[j]=temp;
 				}
+			}
+		}
+		for (int i = 0; i < arr.length; i++) {   
+            System.out.print(arr[i] + " ");  
+        }  
+	}
+	
+	
+	public static void disp1(int arr[])
+	{
+		Arrays.sort(arr);
+		for(int i=0;i<arr.length-1;i++)
+		{
+			if(arr[i]<arr[i+1])
+			{
+				int temp=arr[i];
+				arr[i]=arr[i+1];
+				arr[i+1]=temp;
 			}
 		}
 		for (int i = 0; i < arr.length; i++) {   

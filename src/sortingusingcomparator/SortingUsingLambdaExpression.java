@@ -27,10 +27,12 @@ ArrayList<String> alist=new ArrayList<String>();
 		alist.add("Murg");
 		alist.add("Sardarwa");
 		
-		//Collections.sort(alist,(i1,i2)->(i1>i2)?-1:(i1>i2)?1:0);
-		Collections.sort(alist/*,Comparator.reverseOrder()*/);
+		  //Collections.sort(alist,(i1,i2)->(i1>i2)?-1:(i1<i2)?1:0);
+		Collections.sort(alist,Comparator.reverseOrder());
 		
 		System.out.println(alist);
+		
+		System.out.println(alist.get(0).substring(alist.get(0).length()-1));
 
 	}
 

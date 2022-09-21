@@ -8,7 +8,7 @@ public class DuplicatesUsingHashMap {
 
 	public static void main(String[] args) {
 
-     int[] arr= {1,2,3,5,2};
+     int[] arr= {1,2,3,5,2,5};
      dupHashMap(arr);
 	}
 	

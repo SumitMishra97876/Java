@@ -4,9 +4,9 @@ public class MaxCountOfConsecutiveElementsFromArray {
 
 	public static void main(String[] args) {
 
-     int[] arr= {1,1,1,0,0,1,1,1,1,1};
+     int[] arr= {1,7,8,9,9,7,7,7,5,7,7,7,7,9,9,9};
      
-     disp(arr,1);
+     disp(arr,9);
 
 	}
 	

@@ -4,7 +4,7 @@ public class StringSubString {
 
 	public static void main(String[] args) {
 
-     String str="sumit";
+     String str="sabretooth";
      printSubString(str);
 	}
 	

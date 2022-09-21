@@ -1,6 +1,7 @@
 package arrays;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class SecondLargestNumberFromArary {
 
@@ -17,6 +18,7 @@ public class SecondLargestNumberFromArary {
 	{
 		
 		Arrays.sort(arr);
+		
 		
 		int largest=arr[arr.length-1];
 		int secondLargest=arr[arr.length-2];

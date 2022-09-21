@@ -7,12 +7,12 @@ public class OccurencesOfSubStringInString {
 	public static void main(String[] args) {
 
 
-		String str="Sab/retooth/";
+		String str="Sabretoothtoothsabretooth";
 		
-		String subStr="/";
+		String subStr="tooth";
 		
-		int freqency=print(str,subStr);
-		//int freqency=count(str,subStr);
+		//int freqency=print(str,subStr);
+		int freqency=count(str,subStr);
 		
 		System.out.println(freqency);
 	}

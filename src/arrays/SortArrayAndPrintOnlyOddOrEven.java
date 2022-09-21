@@ -11,11 +11,11 @@ public class SortArrayAndPrintOnlyOddOrEven {
 
 	public static void main(String[] args) {
 		
-		Integer arr[]= {1,2,3,4,5,5,6,8,9,15,45,32,33,89};
+		int arr[]= {1,2,3,4,5,5,6,8,9,15,45,32,33,89};
 		
 		//sort(arr);
 		
-	List<Integer> alist=Arrays.stream(arr)
+	List<Integer> alist=Arrays.stream(arr).boxed()
 		.collect(Collectors.toList());
 	
 	         ArrayList<Integer>sortedList=(ArrayList<Integer>) alist.stream().sorted().filter(s->s%2!=0).collect(Collectors.toList());

@@ -10,7 +10,7 @@ public class ReverseStringUsingStreams {
 
 
 		
-		String str="sumit";
+		String str="Sabretooth";
 		
 		rev(str);
 		

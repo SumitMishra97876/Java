@@ -14,9 +14,9 @@ public class EmployeeExecutor {
 		
 		
         
-		//Employee e1=new Employee(3,"Sunil",80000,"Physics","Maths");
+		Employee e1=new Employee(3,"Sunil",80000,"Physics","Maths");
         
-        //service.addEmployee(e1);
+        service.addEmployee(e1);
         
         //service.getAllEmployee();
         
@@ -40,10 +40,10 @@ public class EmployeeExecutor {
 //		      Scanner sc=new Scanner(System.in);
 //     	      int eid=sc.nextInt();
 //        
-                  System.out.println("Enter empid");
-                  Scanner sc=new Scanner(System.in);
-                   int eid=sc.nextInt();
-//               
+////                  System.out.println("Enter empid");
+//                  Scanner sc=new Scanner(System.in);
+//                   int eid=sc.nextInt();
+////               
 				//service.getEmployee(eid);
                
               //service.deleteEmployee(eid);
@@ -53,7 +53,7 @@ public class EmployeeExecutor {
             // service.deleteEmployee(1);
              //service.getAllEmployee();
              
-             service.deleteEmployee(eid);
+             //service.deleteEmployee(eid);
              service.getAllEmployee();
 	}
 

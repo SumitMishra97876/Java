@@ -14,11 +14,11 @@ public class String_Extract {
 		if(str.contains(str1))
 		{
 			s=s+str.replaceAll("[^VIVEK01]", "");
-			s1=s1+s.replaceAll("1000000", "");
-			s2=s2+s1.replaceAll("I00000", "");
+//			s1=s1+s.replaceAll("1000000", "");
+//			s2=s2+s1.replaceAll("I00000", "");
 			
 		}
-		System.out.println(s2);
+		System.out.println(s);
 		
 		
 		

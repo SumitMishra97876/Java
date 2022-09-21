@@ -1,6 +1,8 @@
 package arrays;
 
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.stream.Collectors;
 
 public class SortArrayDescending {
 
@@ -13,15 +15,13 @@ public class SortArrayDescending {
 	
 	public static void print(int[] arr)
 	{
-		Arrays.sort(arr);
-		//int arr1[]=new int[arr.length];
-		//int n=arr1.length;
+		Integer[] arr1=Arrays.stream(arr).boxed().toArray(Integer[]::new);
 		
-		for(int i=arr.length-1;i>=0;i--)
-		{
-			System.out.print(arr[i]+ " ");
-		}
+		//Arrays.sort(arr1, Comparator.reverseOrder());
 		
+		Arrays.sort(arr1, (i1,i2)->i1>i2?-1:i1<i2?1:0);
+		
+		System.out.println(Arrays.toString(arr1));
 		
 	}
 

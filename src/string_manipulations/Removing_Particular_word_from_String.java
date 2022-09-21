@@ -3,7 +3,7 @@ package string_manipulations;
 public class Removing_Particular_word_from_String {
 	public static void main(String[] args) {
         final String str = "I am Unfortunate guy";
-        System.out.println(replaceWord(str, "Unfortunate"));
+        System.out.println(replaceWord(str, "am"));
     }
     
     public static String replaceWord(final String str, final String word) {

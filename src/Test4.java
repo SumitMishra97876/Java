@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Test4 {
 
@@ -14,6 +17,14 @@ public class Test4 {
 		}
 		System.out.println(count);
 		System.out.println(i);
+		
+		List<String> alist=new ArrayList<String>();
+		alist.add("dhuhdhd");
+		alist.add("hddgd");
+		
+		//String[] ar=(String[]) alist.toArray();
+		String[] ar=alist.toArray(new String[0]);
+		System.out.println(Arrays.toString(ar));
 	}
 
 }

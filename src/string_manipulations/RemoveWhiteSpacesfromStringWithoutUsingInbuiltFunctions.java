@@ -5,7 +5,7 @@ public class RemoveWhiteSpacesfromStringWithoutUsingInbuiltFunctions {
 	public static void main(String[] args) {
 
 
-		String str="I am Sumit Mishra";
+		String str="Saket Saurav        is an Autom ation Engi ne      er";
 		disp(str);
 
 	}

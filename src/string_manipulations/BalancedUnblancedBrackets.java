@@ -8,7 +8,7 @@ public class BalancedUnblancedBrackets {
 	public static void main(String[] args) {
 		
 		
-		String str="({[]})[]{)";
+		String str="({[]})[]{()}";
 		
 		if(disp(str))
 		{

@@ -5,7 +5,7 @@ public class Stringh_Manip {
 	public static void main(final String[] args) {
         final String str = "i am on the verge of losing everythingo";
         System.out.println(str.length());
-        System.out.println(string(str, 1, 'a'));
+        System.out.println(string(str, 2, 'o'));
     }
     
     public static int string(final String str, final int n, final char ch) {
